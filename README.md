@@ -5,7 +5,7 @@ This is a simple setup of a new mac development environment
 Note: I recommend forking this repo in case you don't like anything I do and want to set your own preferences (and pull request them!)
 
 ```
-curl --silent https://raw.githubusercontent.com/ds-matt/dotBot/master/install.sh | sh
+curl --silent https://raw.githubusercontent.com/ds-matt/scaffold/master/install.sh | sh
 ```
 
 Next use the run command:
