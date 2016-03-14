@@ -141,7 +141,7 @@ bot "installing GUI tools via homebrew casks..."
 brew tap caskroom/versions > /dev/null 2>&1
 
 # cloud storage
-require_cask insync
+require_cask google-drive #choosing google drive over Insync because work comps only get work cloud storage
 #require_cask amazon-cloud-drive
 #require_cask box-sync
 #require_cask dropbox
@@ -158,7 +158,9 @@ require_cask camtasia
 require_cask alfred
 require_cask appcleaner
 require_cask dashlane
+require_cask cord
 #require_cask todoist  -- Not supported by Homebrew Cask
+require_cask google-photos-backup
 require_cask microsoft-office
 require_cask moom
 require_cask forklift
@@ -171,7 +173,6 @@ require_cask adobe-photoshop-cc
 require_cask adobe-illustrator-cc
 require_cask adobe-indesign-cc
 
-
 # development browsers
 require_cask firefox
 require_cask google-chrome
@@ -183,8 +184,10 @@ require_cask iterm2
 require_cask phpstorm
 require_cask android-studio
 require_cask visual-studio-code
+require_cask android-studio
 require_cask sequel-pro
 require_cask dash
+require_cask livereload
 ## Git Clients
 require_cask sourcetree
 require_cask tower
