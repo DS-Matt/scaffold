@@ -13,6 +13,11 @@ if [ ! -d "$HOME/'Code'" ]; then
   mkdir -p $HOME/Code/{Sites,Snippets,Projects}
 fi
 
+# make a backup directory for overwritten dotfiles
+if [[ ! -e ~/.dotfiles_backup ]]; then
+    mkdir ~/.dotfiles_backup
+fi
+
 #Set dir variable to projects folder
 dir="$HOME/Code/projects"
 
