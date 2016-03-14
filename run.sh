@@ -5,10 +5,9 @@
 # @author Adam Eivy with contributions by Matthew Sambrook
 ###########################
 
-##TODO: Wrap this in a prompt if the user has a mackup backup (if not then do this)
-
 # include my library helpers for colorized echo and require_brew, etc
-source ./lib.sh
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+source "$DIR/../lib/lib.sh"
 
 # make a backup directory for overwritten dotfiles
 if [[ ! -e ~/.dotfiles_backup ]]; then
