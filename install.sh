@@ -26,3 +26,4 @@ xcode-select --install
 cd $dir
 git clone --recursive git://github.com/DS-MATT/scaffold.git
 cd scaffold
+git remote set-url origin https://github.com/DS-MATT/scaffold.git

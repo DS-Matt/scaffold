@@ -1,0 +1,44 @@
+[user]
+	name = Matthew Sambrook
+	email = matt@diversified-systems.com
+[github]
+	user = DS-MATT
+	token = token
+[credential]
+	helper = osxkeychain
+[gitflow "prefix"]
+	feature = feature-
+	release = release-
+	hotfix = hotfix-
+	support = support-
+	versiontag = v
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = /Users/Matthew/.gitignore_global
+[web]
+	browser = google-chrome
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[push]
+	default = simple
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.1/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
