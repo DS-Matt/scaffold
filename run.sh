@@ -54,7 +54,8 @@ bot "Everything is intstalled, now creating symlinks for mackup backup of dotfil
 
 symlinkifne .mackup.cfg
 
-./scripts/osx.sh
+##./scripts/osx.sh  ## commenting out for now! - will modify to meet my own preferences 
+##./scripts/dock.sh  ## will create setting for dock
 ./scripts/repos.sh
 sudo ./scripts/hosts.sh
 
