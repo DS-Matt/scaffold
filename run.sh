@@ -49,7 +49,7 @@ fullname="$firstname $lastname"
 
 bot "Great $fullname, no we will install some apps!"
 
-./scripts/homebrew.sh
+./scripts/packages.sh
 
 bot "Everything is intstalled, now creating symlinks for mackup backup of dotfiles."
 
