@@ -5,7 +5,7 @@
 GIT_ROOT=`git rev-parse --show-toplevel`
 
 # Load the search functions
-source $GIT_ROOT/lib.sh
+source $GIT_ROOT/lib/lib.sh
 
 ###############################################################################
 bot "Installing Homebrew"
