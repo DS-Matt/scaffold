@@ -1,0 +1,16 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+## Dev Sites
+192.168.33.66   dev.poseidon.loc
+192.168.33.55   dev.diversified-systems.loc
+192.168.33.55   dev.dsgi.loc
+192.168.33.55   dev.nwfineartprinting.loc
+192.186.33.55   dev.graphicsnw.loc
