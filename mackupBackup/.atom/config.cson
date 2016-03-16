@@ -1,12 +1,5 @@
 "*":
   "exception-reporting":
-    userId: "1dc757ad-0287-1821-64e0-9ee3734af182"
+    userId: "d2668bc2-533e-df17-3cc8-0b50cd19f9da"
   welcome:
     showOnStartup: false
-  core:
-    themes: [
-      "atom-material-ui"
-      "atom-material-syntax"
-    ]
-  editor:
-    invisibles: {}
