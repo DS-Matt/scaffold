@@ -8,6 +8,50 @@
 		<array>
 			<dict>
 				<key>colorIndex</key>
+				<integer>1</integer>
+				<key>database</key>
+				<string>dsgi</string>
+				<key>host</key>
+				<string>127.0.0.1</string>
+				<key>id</key>
+				<integer>6937129892836590977</integer>
+				<key>name</key>
+				<string>Dev Site</string>
+				<key>port</key>
+				<string></string>
+				<key>socket</key>
+				<string></string>
+				<key>sshHost</key>
+				<string>dev.diversified-systems.com</string>
+				<key>sshKeyLocation</key>
+				<string>~/nwfap.pem</string>
+				<key>sshKeyLocationEnabled</key>
+				<integer>1</integer>
+				<key>sshPort</key>
+				<string></string>
+				<key>sshUser</key>
+				<string>ec2-user</string>
+				<key>sslCACertFileLocation</key>
+				<string></string>
+				<key>sslCACertFileLocationEnabled</key>
+				<integer>0</integer>
+				<key>sslCertificateFileLocation</key>
+				<string></string>
+				<key>sslCertificateFileLocationEnabled</key>
+				<integer>0</integer>
+				<key>sslKeyFileLocation</key>
+				<string></string>
+				<key>sslKeyFileLocationEnabled</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+				<key>useSSL</key>
+				<integer>0</integer>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+			<dict>
+				<key>colorIndex</key>
 				<integer>4</integer>
 				<key>database</key>
 				<string></string>
