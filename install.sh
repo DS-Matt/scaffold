@@ -19,7 +19,7 @@ if [[ ! -e ~/.dotfiles_backup ]]; then
 fi
 
 #Set dir variable to projects folder
-dir="$HOME/Code/projects"
+dir="$HOME/Code/Projects"
 
 xcode-select --install
 
