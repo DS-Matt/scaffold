@@ -161,6 +161,8 @@ require_cask firefox
 require_cask google-chrome
 require_cask opera
 
+#Fluid App - allows you to create app icons for webpages
+require_cask fluid
 
 ### Development tools + IDEs
 require_cask iterm2
