@@ -117,6 +117,8 @@ require_npm eslint
 
 require_npm prettyjson
 
+require_npm nativefier
+
 ###############################################################################
 # Native Apps (via brew cask)                                                 #
 ###############################################################################
@@ -160,9 +162,6 @@ require_cask adobe-indesign-cc
 require_cask firefox
 require_cask google-chrome
 require_cask opera
-
-#Fluid App - allows you to create app icons for webpages
-require_cask fluid
 
 ### Development tools + IDEs
 require_cask iterm2
@@ -213,7 +212,6 @@ bot "Alright, cleaning up homebrew cache..."
 # Remove outdated versions from the cellar
 brew cleanup > /dev/null 2>&1
 bot "All clean"
-
 
 ###############################################################################
 bot "Installing Composer..."
