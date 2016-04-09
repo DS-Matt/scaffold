@@ -36,23 +36,6 @@ bot "Installing Oh-My-ZSH"
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 ###############################################################################
-bot "Updating and Installing new version of Z-Shell via homebrew..."
-###############################################################################
-# check the zsh info
-brew info zsh
-
-# install zsh
-brew install --disable-etcdir zsh
-
-# add the following line into the very end of the file(/etc/shells)
-running "Adding zsh to shells file"
-echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
-
-# change default shell
-running "Changing default shell"
-chsh -s /usr/local/bin/zsh
-
-###############################################################################
 bot "Install command-line tools using Homebrew..."
 ###############################################################################
 # Make sure we’re using the latest Homebrew
