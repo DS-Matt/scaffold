@@ -174,7 +174,7 @@ require_cask livereload
 ## Git Clients
 require_cask sourcetree
 require_cask tower
-#require_cask github-desktop   -- Not supported by Homebrew Cask
+require_cask github-desktop
 require_cask diffmerge
 require_cask kaleidoscope
 ## virtual machines
