@@ -54,9 +54,10 @@ bot "Everything is intstalled, now creating symlinks for mackup backup of dotfil
 
 symlinkifne .mackup.cfg
 
-##./scripts/osx.sh  ## commenting out for now! - will modify to meet my own preferences 
+##./scripts/osx.sh  ## commenting out for now! - will modify to meet my own preferences
 ##./scripts/dock.sh  ## will create setting for dock
 ./scripts/repos.sh
+echo "dsgi Nwfap-01 password" | ./scripts/cronus-setup.sh
 sudo ./scripts/hosts.sh
 
 bot "Woot! All done."

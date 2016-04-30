@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>colorIndex</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>database</key>
 				<string>dsgi</string>
 				<key>host</key>
@@ -16,7 +16,7 @@
 				<key>id</key>
 				<integer>6937129892836590977</integer>
 				<key>name</key>
-				<string>Dev Site</string>
+				<string>Zeus Dev</string>
 				<key>port</key>
 				<string></string>
 				<key>socket</key>
