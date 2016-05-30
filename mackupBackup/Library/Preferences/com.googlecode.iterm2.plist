@@ -1152,7 +1152,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>265 249 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 69 1433 808 0 0 1440 877 </string>
+	<string>162 91 665 601 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1881,10 +1881,12 @@
 			<string>/Users/Matthew</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>481932872.62454402</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>481932872.62477702</real>
+	<real>484356676.176153</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1937,7 +1939,7 @@
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RawCameraSupportVersion</key>
-	<string>6181</string>
+	<string>6190</string>
 	<key>RightCommand</key>
 	<integer>8</integer>
 	<key>RightOption</key>
@@ -1949,7 +1951,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-04-09T22:14:26Z</date>
+	<date>2016-05-07T23:31:14Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
